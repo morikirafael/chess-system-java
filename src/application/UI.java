@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+
 import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
@@ -122,14 +123,11 @@ public class UI {
 		System.out.print("White: ");
 		System.out.print(ANSI_WHITE);
 		System.out.println(Arrays.toString(white.toArray()));
-		System.out.println(ANSI_RESET);
+		System.out.print(ANSI_RESET);
 		System.out.print("Black: ");
 		System.out.print(ANSI_YELLOW);
 		System.out.println(Arrays.toString(black.toArray()));
-		System.out.println(ANSI_RESET);
-		
-
-	
+		System.out.print(ANSI_RESET);
 	}
 
 }
